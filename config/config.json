@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "VSKc16kqB4Mk5PMq",
+    "database": "mydata",
+    "host": "203.119.13.150",
+    "dialect": "mariadb"
+  },
+  "test": {
+    "username": "root",
+    "password": "VSKc16kqB4Mk5PMq",
+    "database": "mydata",
+    "host": "203.119.13.150",
+    "dialect": "mariadb"
+  },
+  "production": {
+    "username": "root",
+    "password": "VSKc16kqB4Mk5PMq",
+    "database": "mydata",
+    "host": "203.119.13.150",
+    "dialect": "mariadb"
+  }
+}
