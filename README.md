@@ -78,7 +78,9 @@ const LoggerInstance = winston.createLogger({
 });
 ```
 ### Set Routes, Controllers & Services
-Thes will provide user the api, with the flow will be routes->controllers->services->controllers->return res. 
+Thes will provide user the api, with the flow will be:
+
+routes->controllers->services->controllers->return res. 
 
 The routes will provide the api, which are:
 - GET /material, to return all materials
