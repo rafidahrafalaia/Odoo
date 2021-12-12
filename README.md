@@ -1,5 +1,5 @@
 ## ER Diagram
-![alt text](https://github.com/rafidahrafalaia/Odoo/blob/master/ERDDiagram1.jpg?raw=true)
+![alt text](https://github.com/rafidahrafalaia/Odoo/blob/master/images/ERDDiagram1.jpg?raw=true)
 
 ## Getting Started
 ### Creating Database using sequilize migrate
@@ -93,4 +93,5 @@ The controllers then will check request comming with express-validator and ask s
 
 ### Set Unit Testing
 Using jest install the requirement and then set up testing in folder index.test.js. The testing consist of get all the success response (status:200) and the failed response (status:404||400) from the api
-
+### Test Result
+![alt text](https://github.com/rafidahrafalaia/Odoo/blob/master/images/test_result.JPG?raw=true)
