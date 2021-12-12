@@ -14,8 +14,24 @@ Set the configuration database in config file inside config/config.json, and tab
 npx sequelize-cli db:migrate
 ```
 ### Set env file
-in env.example remove the .example set it to your configuration
+in env.example remove the .example set it to your configuration, with the following:
+```
+# APP CONFIGURATION
+APP_NAME=''
+NODE_ENV=''
+PORT=
 
+# LOGGER CONFIGURATION
+LOG_LEVEL=''
+
+# MARIA CONFIGURATION
+MARIA_HOST=""
+MARIA_USERNAME=""
+MARIA_PASSWORD=""
+MARIA_DATABASE=""
+MARIA_PORT=3306
+MARIA_DIALECT=''
+```
 ### Set Loaders
 Folder loaders contain everything that will automatically run first when server is running, it contains:
 - Express, for build express server. Here are the setup:
